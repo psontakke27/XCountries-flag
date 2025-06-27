@@ -4,11 +4,7 @@ import React, { useEffect, useState } from 'react';
 
 
 function App() {
-  // const countries = [{"name":"Afghanistan","flag":"https://flagcdn.com/w320/af.png","abbr":"af"},
-  //   {"name":"Albania","flag":"https://flagcdn.com/w320/al.png","abbr":"al"},
-  //   {"name":"Algeria","flag":"https://flagcdn.com/w320/dz.png","abbr":"dz"},
-  //   {"name":"Andorra","flag":"https://flagcdn.com/w320/ad.png","abbr":"ad"}
-  //   ]
+  
   const [countries, setCountries] = useState([]);
   
   useEffect(()=>{
